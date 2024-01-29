@@ -24,7 +24,6 @@ pip install -q bitsandbytes sentencepiece accelerate loralib
 pip install -q -U git+https://github.com/huggingface/peft.git
 ```
 
-
 ## Files description
 
 - `finechart.ipynb`: This file contains code for fine-tuning LORA and the inference process.
@@ -42,3 +41,21 @@ Within the dataset:
 ## Retrieval Library
 
 ** We created a small retrieval library containing 1,000 pairs of charts and text, where each pair includes basic information about the chart, image trends, x-y coordinates, etc. These context examples correspond to each stage of the COT. The examples of the context retrieval library are shown in the following figure.**
+
+1. Examples from the first stage of the Retrieval Library, showcasing chart types for context
+   retrieval.
+
+![img](asset/11.png)
+
+2. Examples from the second stage of the Retrieval Library, showcasing chart content overview
+   in context retrieval.
+
+![img](asset/13.png)
+
+3. The third stage in the Retrieval Library, which shows examples of Axes’ Meaning.
+
+![img](asset/13.png)
+
+4. The fourth stage in the Retrieval Library shows examples of Charts’ numerical trend.
+
+![img](asset/14.png)
